@@ -21,9 +21,19 @@ namespace Somuleco_XamarinForms
             InitializeComponent();
         }
 
-        void Handle_Clicked(object sender, System.EventArgs e)
+        void Unauthenticated_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new WelcomePage());
+            Navigation.PushAsync(new UnauthenticatedTabsPage());
+        }
+
+        void Authenticated_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new AuthenticatedPage());
+        }
+
+        void Authentication_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new LoginPage());
         }
     }
 }
