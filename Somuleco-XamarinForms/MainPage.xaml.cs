@@ -5,6 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using SomulecoXamarinForms;
+
+
 
 namespace Somuleco_XamarinForms
 {
@@ -16,6 +19,11 @@ namespace Somuleco_XamarinForms
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new WelcomePage());
         }
     }
 }

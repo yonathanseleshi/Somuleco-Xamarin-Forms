@@ -127,12 +127,15 @@
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.220655" />
     <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.21.7" />
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Somuleco_XamarinForms\Somuleco_XamarinForms.csproj">
-      <Project>{31012B4A-E22F-44AB-BAAC-C7D0E09B0B8B}</Project>
-      <Name>Somuleco_XamarinForms</Name>
+    <ProjectReference Include="..\Somuleco-XamarinForms\Somuleco-XamarinForms.csproj">
+      <Project>{8A875B71-0792-465C-905F-F089FCD21E7F}</Project>
+      <Name>Somuleco-XamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
