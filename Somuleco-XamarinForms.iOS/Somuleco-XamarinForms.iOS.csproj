@@ -75,45 +75,41 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
-      <Visible>false</Visible>
-    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LearningFeed.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\SocialFeed%402x.png" />
+    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\SocialFeed%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\SocialFeed%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Wallet.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Wallet.imageset\wallet%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Wallet.imageset\wallet%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Wallet.imageset\wallet.png" />
+    <ImageAsset Include="Assets.xcassets\Library.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Library.imageset\Library%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Library.imageset\Library%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Library.imageset\Library.png" />
+    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\LearningProfile%403x.png" />
+    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\LearningProfile%402x.png" />
+    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\LearningProfile.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-40%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\NotificationIcon%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\NotificationIcon%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\NotificationIcon~ipad.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\NotificationIcon~ipad%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-40%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-83.5%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ios-marketing.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -137,5 +133,12 @@
       <Project>{8A875B71-0792-465C-905F-F089FCD21E7F}</Project>
       <Name>Somuleco-XamarinForms</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\LearningFeed.imageset\" />
+    <Folder Include="Assets.xcassets\SocialFeed.imageset\" />
+    <Folder Include="Assets.xcassets\Wallet.imageset\" />
+    <Folder Include="Assets.xcassets\Library.imageset\" />
+    <Folder Include="Assets.xcassets\LearningProfile.imageset\" />
   </ItemGroup>
 </Project>
