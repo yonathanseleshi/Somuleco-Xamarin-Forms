@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using SomulecoXamarinForms;
+using System.Reactive.Subjects;
+
 
 
 
@@ -16,6 +18,9 @@ namespace Somuleco_XamarinForms
     [DesignTimeVisible(true)]
     public partial class MainPage : ContentPage
     {
+         BehaviorSubject<Boolean> isAuthenticated = new BehaviorSubject<Boolean>(false);
+       
+
         public MainPage()
         {
             InitializeComponent();

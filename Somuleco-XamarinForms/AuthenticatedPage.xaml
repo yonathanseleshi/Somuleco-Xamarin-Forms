@@ -2,7 +2,17 @@
 <MasterDetailPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="SomulecoXamarinForms.AuthenticatedPage">
-    <ContentPage.Content>
-    </ContentPage.Content>
+    xmlns:local="clr-namespace:SomulecoXamarinForms"
+    x:Class="SomulecoXamarinForms.AuthenticatedPage"
+    MasterBehavior="Popover">
+    <MasterDetailPage.Master>
+        <local:DrawerMasterPage x:Name="drawerMasterPage" x:FieldModifier="public" />
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:LearningFeedPage />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
 </MasterDetailPage>

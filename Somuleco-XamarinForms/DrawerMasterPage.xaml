@@ -6,13 +6,13 @@
     x:Class="SomulecoXamarinForms.DrawerMasterPage"
     Padding="0,40,0,0"
      Title="Somuleco">
-    <StackLayout>
-        <ListView x:Name="listView" x:FieldModifier="public">
+    <StackLayout x:FieldModifier="public" >
+        <ListView x:Name="drawerListView" x:FieldModifier="Public" >
            <ListView.ItemsSource>
-                <x:Array Type="{x:Type local:DrawerMasterPageItem}">
-                    <local:DrawerMasterPageItem Title="Lessons" IconSource="learningfeed.png" TargetType="{x:Type local:LearningFeedPage}" />
-                    <local:DrawerMasterPageItem Title="Social" IconSource="socialfeed.png" TargetType="{x:Type local:SocialFeedPage}" />
-                    <local:DrawerMasterPageItem Title="Library" IconSource="library.png" TargetType="{x:Type local:LibraryPage}" />
+                <x:Array Type="{x:Type local:MasterPageItem}">
+                    <local:MasterPageItem Title="Lessons" IconSource="learningfeed.png" TargetType="{x:Type local:LearningFeedPage}" />
+                    <local:MasterPageItem Title="Social" IconSource="socialfeed.png" TargetType="{x:Type local:SocialFeedPage}" />
+                    <local:MasterPageItem Title="Library" IconSource="library.png" TargetType="{x:Type local:LibraryPage}" />
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>

@@ -7,9 +7,12 @@ namespace SomulecoXamarinForms
 {
     public partial class DrawerMasterPage : ContentPage
     {
+     
+       
         public DrawerMasterPage()
         {
             InitializeComponent();
+                     
         }
     }
 }

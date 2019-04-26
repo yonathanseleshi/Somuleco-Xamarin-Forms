@@ -7,18 +7,28 @@ namespace SomulecoXamarinForms
 {
     public partial class AuthenticatedPage : MasterDetailPage
     {
-        DrawerMasterPage masterPage;
-
+     
         public AuthenticatedPage()
         {
             InitializeComponent();
-            MasterBehavior = MasterBehavior.Popover;
 
-            masterPage = new DrawerMasterPage();
 
-            Master = masterPage;
+            /*
+              MasterBehavior = MasterBehavior.Popover;
+              
+              this.drawerMasterPage = new DrawerMasterPage();
+             
+              Master = drawerMasterPage;
+              
+              Detail = new NavigationPage(new LearningFeedPage());
+              */
 
-            Detail = new NavigationPage(new LearningFeedPage());
+
+
+
         }
+
+       
     }
 }
+
