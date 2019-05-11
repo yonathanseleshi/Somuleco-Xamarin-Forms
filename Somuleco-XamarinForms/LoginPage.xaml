@@ -1,5 +1,32 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SomulecoXamarinForms.LoginPage">
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SomulecoXamarinForms.LoginPage"
+             Title="Login">
     <ContentPage.Content>
+        <ScrollView>
+         <StackLayout x:Name="Login_Layout">
+            <StackLayout Orientation="Vertical">
+                      
+            <Label Text="Login" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Margin="0,15, 0, 0"/>
+         
+            <Entry x:Name="userName" Placeholder="Username" HorizontalOptions="Center" WidthRequest="250" Margin="8"/>
+            <Entry x:Name="password" Placeholder="Password" HorizontalOptions="Center" WidthRequest="250" Margin="8"/>
+  
+                
+                    
+          </StackLayout>
+          
+          <StackLayout Orientation="Horizontal">
+             <Button Text="Submit" WidthRequest="100" Margin="60, 10, 0, 10" BorderWidth="1"/>
+             <Button Text="Cancel" WidthRequest="100" Margin="10, 10, 50, 10" BorderWidth="1"
+                     BorderColor="Red"/>
+            
+        </StackLayout>
+       
+       </StackLayout>
+        
+   
+       </ScrollView>
     </ContentPage.Content>
 </ContentPage>
