@@ -145,6 +145,10 @@
       <Project>{8A875B71-0792-465C-905F-F089FCD21E7F}</Project>
       <Name>Somuleco-XamarinForms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SharedDotNetLibrary\SharedDotNetLibrary.csproj">
+      <Project>{73B85A03-FE97-4F1C-9E4F-FD4D4A6B88D4}</Project>
+      <Name>SharedDotNetLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets.xcassets\LearningFeed.imageset\" />

@@ -17,9 +17,9 @@
     <PackageReference Include="System.Reactive" Version="4.1.5" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
+    <None Remove="global.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="global.json" />
+    <ProjectReference Include="..\SharedDotNetLibrary\SharedDotNetLibrary.csproj" />
   </ItemGroup>
 </Project>
