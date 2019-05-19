@@ -15,6 +15,12 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="System.Reactive" Version="4.1.5" />
+    <PackageReference Include="Microsoft.Azure.Mobile.Client" Version="4.1.1" />
+    <PackageReference Include="NLog" Version="4.6.3" />
+    <PackageReference Include="ReactiveUI" Version="9.15.1" />
+    <PackageReference Include="ReactiveUI.XamForms" Version="9.15.1" />
+    <PackageReference Include="ReactiveUI.Events.XamForms" Version="9.15.1" />
+    <PackageReference Include="MvvmCross" Version="6.3.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="global.json" />

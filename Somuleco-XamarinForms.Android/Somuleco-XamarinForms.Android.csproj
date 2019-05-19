@@ -75,6 +75,15 @@
     <PackageReference Include="ReactiveUI.XamForms">
       <Version>9.15.1</Version>
     </PackageReference>
+    <PackageReference Include="NLog">
+      <Version>4.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Azure.Mobile.Client">
+      <Version>4.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross">
+      <Version>6.3.0</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
