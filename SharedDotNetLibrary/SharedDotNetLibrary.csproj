@@ -9,6 +9,7 @@
     <Folder Include="ViewModels\" />
     <Folder Include="Models\" />
     <Folder Include="DependencyServices\" />
+    <Folder Include="DAOs\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Class1.cs" />
@@ -21,5 +22,6 @@
     <PackageReference Include="ReactiveUI.Events.XamForms" Version="9.15.1" />
     <PackageReference Include="ReactiveUI" Version="9.15.1" />
     <PackageReference Include="MvvmCross" Version="6.3.0" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
   </ItemGroup>
 </Project>
