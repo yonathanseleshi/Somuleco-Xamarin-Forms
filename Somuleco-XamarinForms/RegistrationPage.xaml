@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SomulecoXamarinForms.RegistrationPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SomulecoXamarinForms.RegistrationPage">
     <ContentPage.ToolbarItems></ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+    <ResourceDictionary>
+     
+         <x:Double x:Key="widthRequest">
+          250
+         </x:Double>
+
+        <x:Double x:Key="rotationAngle">-15</x:Double>
+    </ResourceDictionary>
+</ContentPage.Resources>
+     <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0, 50, 0, 0" />
+            <On Platform="Android, UWP" Value="0, 30, 0, 0" />
+        </OnPlatform>
+    </ContentPage.Padding>
     <ContentPage.Content>
         <StackLayout x:Name="Registration_Layout" Orientation="Vertical">
             
             <StackLayout Orientation="Vertical">
             <Label Text="Registration" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Margin="15"/>
-            <Entry x:Name="fName" Placeholder="First Name" HorizontalOptions="Center" WidthRequest="250" Margin="0,20,0,8" />
-            <Entry x:Name="lName" Placeholder="Last Name" HorizontalOptions="Center" WidthRequest="250" Margin="8"/>
-            <Entry x:Name="userName" Placeholder="Username" HorizontalOptions="Center" WidthRequest="250" Margin="8"/>
-            <Entry x:Name="displayName" Placeholder="Display Name" HorizontalOptions="Center" WidthRequest="250" Margin="8"/>
-            <Entry x:Name="email" Placeholder="Email" HorizontalOptions="Center" WidthRequest="250" Margin="8"/>
-            <Entry x:Name="password" Placeholder="Password" HorizontalOptions="Center" WidthRequest="250" Margin="8"/>
+            <Entry x:Name="fName" Placeholder="First Name" Text="{Binding FirstName}" HorizontalOptions="Center" WidthRequest="{StaticResource widthRequest}" Margin="0,20,0,8" />
+            
+            <Entry x:Name="lName" Placeholder="Last Name" Text="{Binding LastName}" HorizontalOptions="Center" WidthRequest="{StaticResource widthRequest}" Margin="8"/>
+            
+                
+            <Entry x:Name="userName" Placeholder="Username" Text="{Binding UserName}" HorizontalOptions="Center" WidthRequest="{StaticResource widthRequest}" Margin="8"/>
+            <Entry x:Name="displayName" Placeholder="Display Name" Text="{Binding DisplayyName}" HorizontalOptions="Center" WidthRequest="{StaticResource widthRequest}" Margin="8"/>
+            <Entry x:Name="email" Placeholder="Email" Text="{Binding Email}" HorizontalOptions="Center" WidthRequest="{StaticResource widthRequest}" Margin="8"/>
+            <Entry x:Name="password" Placeholder="Password" Text="{Binding Password}" HorizontalOptions="Center" WidthRequest="{StaticResource widthRequest}" Margin="8"/>
+            <Entry x:Name="confirmPassword" Placeholder="Confirm Password" Text="{Binding ConfirmPassword}" HorizontalOptions="Center" WidthRequest="{StaticResource widthRequest}" Margin="8"/>
            
             
             
         </StackLayout>
         
         <StackLayout Orientation="Horizontal">
-             <Button Text="Submit" WidthRequest="100" Margin="70, 10, 10, 10"/>
-             <Button Text="Cancel" WidthRequest="100" Margin="10, 10, 0, 10"/>
+             <Button Text="Submit" Command="{Binding Submit}" WidthRequest="100" Margin="70, 10, 10, 10"/>
+             <Button Text="Cancel" Clicked="Cancel" WidthRequest="100" Margin="10, 10, 0, 10"/>
             
         </StackLayout>
         
