@@ -21,6 +21,7 @@
     <PackageReference Include="ReactiveUI.XamForms" Version="9.15.1" />
     <PackageReference Include="ReactiveUI.Events.XamForms" Version="9.15.1" />
     <PackageReference Include="MvvmCross" Version="6.3.0" />
+    <PackageReference Include="Realm" Version="3.4.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="global.json" />

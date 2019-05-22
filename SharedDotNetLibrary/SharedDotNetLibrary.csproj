@@ -10,6 +10,7 @@
     <Folder Include="Models\" />
     <Folder Include="DependencyServices\" />
     <Folder Include="DAOs\" />
+    <Folder Include="ModelsRealm\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Class1.cs" />
@@ -23,5 +24,6 @@
     <PackageReference Include="ReactiveUI" Version="9.15.1" />
     <PackageReference Include="MvvmCross" Version="6.3.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
+    <PackageReference Include="Realm" Version="3.4.0" />
   </ItemGroup>
 </Project>
