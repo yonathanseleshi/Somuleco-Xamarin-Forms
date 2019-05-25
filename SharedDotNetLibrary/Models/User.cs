@@ -27,5 +27,12 @@ namespace SharedDotNetLibrary.Models
 
         [JsonProperty("password")]
         public string Password { get; set; }
+
+
+        public User()
+        {
+
+
+        }
     }
 }
