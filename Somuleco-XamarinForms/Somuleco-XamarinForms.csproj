@@ -29,4 +29,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SharedDotNetLibrary\SharedDotNetLibrary.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Styles\" />
+  </ItemGroup>
 </Project>

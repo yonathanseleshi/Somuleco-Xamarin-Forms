@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="SomulecoXamarinForms.LoginPage"
              Title="Login">
+    <ContentPage.Resources>
+        
+        <StyleSheet Source="/Styles/loginstyles.css"/>
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
         <ScrollView>
          <StackLayout x:Name="Login_Layout">
