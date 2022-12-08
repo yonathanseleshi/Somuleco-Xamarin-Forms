@@ -13,7 +13,7 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.394984-pre10" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="System.Reactive" Version="4.1.5" />
     <PackageReference Include="Microsoft.Azure.Mobile.Client" Version="4.1.1" />
     <PackageReference Include="NLog" Version="4.6.3" />
